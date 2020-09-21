@@ -8,12 +8,12 @@
 
   </head>
   <body>
-    @include('partials.header')
 
     <div class="container">
+      @include('partials.header')
       @yield('content')
+      @include('partials.footer')
     </div>
 
-    @include('partials.footer')
   </body>
 </html>
