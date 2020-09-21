@@ -5,10 +5,8 @@
 }
 
 body {
-  background: purple;
-  color: white;
-  width: 100vw;
-  height: 100vh;
+  background: white;
+  color: black;
 }
 
 div.container {
@@ -25,5 +23,84 @@ div.container > * {
 img {
   width: 300px;
   height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+header .navbar {
+  margin: 40px 0;
+}
+
+header .navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header .navbar ul li a {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+main h1 {
+  color: #022e74;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 0 0 20px 300px;
+}
+
+main ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 300px;
+}
+
+main ul li {
+  margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 0;
+}
+
+footer .contatti {
+  max-width: 350px;
+}
+
+footer .contatti p {
+  font-size: 18px;
+}
+
+footer img {
+  width: 200px;
+}
+
+footer nav ul {
+  margin-right: 30px;
+}
+
+footer nav ul li {
+  line-height: 28px;
+}
+
+footer nav ul li h2 {
+  text-transform: uppercase;
+  color: #3c4047;
+}
+
+footer nav ul li a {
+  font-size: 18px;
 }
 
